@@ -25,4 +25,16 @@ describe('checkout test', () => {
     it('Should throw an error when sending an Unknown item', () => {
         expect(() => checkout('Z')).toThrow('Unknown Item');
     });
+    it('Should apply a discount when having 3 As', () => {
+        expect(checkout('AAA')).toBe(130);
+    });
+    it('Should apply a discount when having 8 As', () => {
+        expect(checkout('AAAAAAAA')).toBe(360);
+    });
+    it('Should apply a discount when having 2 Bs', () => {
+        expect(checkout('BB')).toBe(45);
+    });
+    it('Should apply a discount when having 3 Bs', () => {
+        expect(checkout('BBB')).toBe(75);
+    });
 })
