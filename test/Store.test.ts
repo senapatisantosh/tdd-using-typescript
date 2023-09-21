@@ -1,4 +1,4 @@
-import { ItemType } from "../src/Items/Item";
+import { ItemType } from "../src/Items/ItemFactory";
 import { Store } from "../src/Store";
 import { Discount } from "../src/Discount";
 

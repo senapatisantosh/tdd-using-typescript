@@ -1,4 +1,4 @@
-import { Item } from "../Item";
+import { Item } from "../ItemFactory";
 
 const A_PRICE = 50;
 
