@@ -1,6 +1,6 @@
-import { checkout } from "../src/checout";
+import { checkout } from "../src/checkout";
 
-describe('checkou', () => {
+describe('checkout', () => {
     it('cbd', () => {
         expect(checkout('')).toBe(0);
     });
