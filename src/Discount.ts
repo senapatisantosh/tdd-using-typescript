@@ -1,4 +1,4 @@
-import { ItemType } from "./Items/Item";
+import { ItemType } from "./Items/ItemFactory";
 
 export class Discount {
     constructor(private itemType: ItemType, private quantity: number, private discount: number) { }

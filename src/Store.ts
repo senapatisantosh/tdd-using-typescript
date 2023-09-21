@@ -1,4 +1,4 @@
-import { itemFactory } from "./Items/Item";
+import { itemFactory } from "./Items/ItemFactory";
 import { Discount } from "./Discount";
 
 export class Store {
